@@ -25,3 +25,27 @@ p {
   color: #444;
   font-size: 18px;
 }
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  /* rest remains same */
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004a99;
+  text-decoration: underline;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
